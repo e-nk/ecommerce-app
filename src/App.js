@@ -30,7 +30,7 @@ function App() {
   return (
     <div>
       {isLoggedOut ? <NavbarFront /> : <Navbar />}
-      
+
       <Switch>
         <Route exact path="/products">
           <Products />
@@ -71,12 +71,13 @@ function App() {
         <Route path="/forgot-password">
           <ForgotPassword/>
         </Route>
-        
+
       </Switch>
-      
+
       <Footer />
     </div>
   );
 }
+
 
 export default App;
