@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# EasyShop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+EasyShop is designed to provide a convenient and secure way for users to shop for cloth items like hoodies, T-shirts, Jeans etc and accessories like watches online.
+With our app, users can browse through a wide range of products, add them to their cart, and complete their purchases with ease.
 
-## Available Scripts
+Link to Deployed project : 
 
-In the project directory, you can run:
+[![Click Me](https://img.shields.io/badge/Click%20Me-red?style=for-the-badge)](https://my-easy-shop.netlify.app/)
 
-### `npm start`
+## Technologies Used
+- ReactJS
+- Netlify (for frontend deployement)
+- Render (for backend deployment)
+- Ruby on Rails
+- SQLite3 for the database management
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Getting Started
+In order for you to use the content on this repo ensure you have the following:
+- A computer that runs on either of the following; (Windows 7+, Linux, Mac OS)
+- nodejs 9.0+
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
+To use this repo on your machine requires some simple steps
+### Alternative One
+- Open a terminal / command line interface on your computer
+- Clone the repo by using the following:
 
-### `npm test`
+        git clone https://github.com/Group-2-Phase4-Project/ecommerce-app.git
+- This creates a copy on your local machine for you.
+- Change directory to the repo folder:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+        cd ecommerce-app
 
-### `npm run build`
+- (Optional) Open it in ``Visual Studio Code``
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+        code .
+- (Alternate Option) Open it in any editor of your choice.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Hurray! You are one step closer to being as intelligent as Einstein.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Alternative Two
+- On the top right corner of this page there is a button labelled ``Fork``.
+- Click on that button to fork the repo to your own account.
+- Take on the process in ``Alternative One`` above.
+- Remember to replace your username when cloning.
 
-### `npm run eject`
+        git clone https://github.com/your username/ecommerce-app.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Running the application
+Running the application is very straight forward. You can use the following steps to run the app.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Install required dependencies from npm
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+      npm install
+- Run the application on the browser
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+      npm start
 
-## Learn More
+# Demo
+This app has been deployed and can be opened in the browser using the following url:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[![Click Me](https://img.shields.io/badge/Click%20Me-red?style=for-the-badge)](https://my-easy-shop.netlify.app/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+- Home
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Home](https://github.com/Group-2-Phase4-Project/ecommerce-app/blob/main/images/home.png?raw=true)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Login
 
-### Making a Progressive Web App
+![Login](https://github.com/Group-2-Phase4-Project/ecommerce-app/blob/main/images/login.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Products
 
-### Advanced Configuration
+![Products](https://github.com/Group-2-Phase4-Project/ecommerce-app/blob/main/images/products.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Cart
 
-### Deployment
+![Cart](https://github.com/Group-2-Phase4-Project/ecommerce-app/blob/main/images/cart.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+# Authors
+This project was made with ❤️ and ☕ by:
+
+[Enock Lagat](https://github.com/e-nk)
+
+[Fred Murigi](https://github.com/Freddie16)
+
+
+[Diana Maritim](https://github.com/DianaCmaritim)
+
+[Evalyne Wambui](https://github.com/Evalyne306)
+
+# License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
